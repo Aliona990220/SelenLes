@@ -5,7 +5,7 @@ public class TypesOfData {
         int c ;
         c= 1000000;
         long d = -123456789;
-        
+        System.out.println(a);
 
 
     }
