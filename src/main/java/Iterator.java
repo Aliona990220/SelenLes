@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Roster {
+public class Iterator {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
 
@@ -31,7 +31,7 @@ public class Roster {
 
         System.out.println(list.isEmpty());
         list.clear();
-        System.out.println(list.isEmpty());
+        System.out.println(true);
 
 
         System.out.println(list.contains(9));
@@ -40,8 +40,15 @@ public class Roster {
         System.out.println(list.containsAll(list2));
 
 
+        java.util.Iterator<Integer> iterator =  list.iterator();
+        System.out.println(iterator.next());
+        System.out.println(iterator.next());
 
-//        list.clear();
-//        System.out.println(list.size());
+        System.out.println(iterator.hasNext());
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
+
+
     }
 }
