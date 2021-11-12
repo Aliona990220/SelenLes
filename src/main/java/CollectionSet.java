@@ -11,8 +11,7 @@ public class CollectionSet {
         set.add(11);
 
         System.out.println(set.size());
-        Iterator iterator = set.iterator();
-        while (iterator.has)
+        Iterator iterator = (Iterator) set.iterator();
 
 
     }
