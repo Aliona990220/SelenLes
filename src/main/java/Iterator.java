@@ -41,18 +41,10 @@ public class Iterator {
         System.out.println(list.containsAll(list2));
 
 
-        java.util.Iterator<Integer> iterator =  list.iterator();
+        java.util.Iterator<Integer> iterator = list.iterator();
         System.out.println(iterator.next());
         System.out.println(iterator.next());
 
-        System.out.println(iterator.hasNext());
-        while (iterator.hasNext()){
-            System.out.println(iterator.next());
-        }
-
-
     }
-
-
-    }
+}
 

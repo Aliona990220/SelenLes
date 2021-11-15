@@ -12,7 +12,10 @@ public class CollectionSet {
 
         System.out.println(set.size());
         Iterator iterator = (Iterator) set.iterator();
+//        while (iterator.hasNext()){
+            System.out.println(set.size());
+        }
 
 
     }
-}
+//}

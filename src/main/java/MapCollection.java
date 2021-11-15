@@ -16,9 +16,9 @@ public class MapCollection {
         System.out.println(map.containsValue("Yellow"));
         Set<Integer> keys = map.keySet();
         Iterator iterator = (Iterator) keys.iterator();
-        while (iterator.hasNext()) {
 
-        }
+
+
 
 
     }
