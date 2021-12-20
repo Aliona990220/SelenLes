@@ -27,7 +27,7 @@ System.out.printf("%s (%s) \n", name, author);
 }
     }
 
-// Або так 
+// Або так
 class Journal implements Printable {
 
     private String name;
